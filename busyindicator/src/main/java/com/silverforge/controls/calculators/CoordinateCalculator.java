@@ -15,7 +15,7 @@ public class CoordinateCalculator {
         float layoutCenterY = paddingTop + height / 2;
 
         float singleRadius = (float) (bigRadius * 0.75);
-        float singlePointRadius = (float) (singleRadius * 0.05);
+        float singlePointRadius = (float) (singleRadius * 0.75);
 
         positionSettings.setWidth(width);
         positionSettings.setHeight(height);
